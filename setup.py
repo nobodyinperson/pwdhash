@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 version = '0.1.3'
 
-setup(name='pwdhash.py',
+setup(name='python3-pwdhash',
       version=version,
       description='Python Stanford PwdHash implementation',
       long_description="""\
@@ -31,4 +31,4 @@ Stanford PwdHash (https://www.pwdhash.com/)""",
       zip_safe=False,
       entry_points={ 'console_scripts': [ 'pwdhash = pwdhash:console_main' ] },
       )
-      
+
